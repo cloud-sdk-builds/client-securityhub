@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-securityhub`](https://www.npmjs.com/package/@aws-sdk/client-securityhub/v/3.1046.0).
+[`@aws-sdk/client-securityhub`](https://www.npmjs.com/package/@aws-sdk/client-securityhub/v/3.1047.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-securityhub - [https://cloud-sdk-builds.github.io/?sdk=client-securityhub](https://cloud-sdk-builds.github.io/?sdk=client-securityhub)
-- @aws-sdk/client-securityhub v3.1046.0 - [https://cloud-sdk-builds.github.io/?sdk=client-securityhub&version=3.1046.0](https://cloud-sdk-builds.github.io/?sdk=client-securityhub&version=3.1046.0)
+- @aws-sdk/client-securityhub v3.1047.0 - [https://cloud-sdk-builds.github.io/?sdk=client-securityhub&version=3.1047.0](https://cloud-sdk-builds.github.io/?sdk=client-securityhub&version=3.1047.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1046.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1047.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-jFaIEVaWBEL2Y2aT5oT6ks1FpAp1XNeU8vcNL7Q/hjJ8zLN98HmjlHrHaVT+zyxH
+sha384-XyYwSjoEZNkUMb7RXdS1AbH9akBe+Qa6mUuroXC+3qBGTgE9z7DrW3UwE7zl30Bu
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-securityhub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1046.0/index.min.mjs"
+            "@aws-sdk/client-securityhub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1047.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1046.0/index.min.mjs": "sha384-jFaIEVaWBEL2Y2aT5oT6ks1FpAp1XNeU8vcNL7Q/hjJ8zLN98HmjlHrHaVT+zyxH"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1047.0/index.min.mjs": "sha384-XyYwSjoEZNkUMb7RXdS1AbH9akBe+Qa6mUuroXC+3qBGTgE9z7DrW3UwE7zl30Bu"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-securityhub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1046.0/index.min.mjs"
+                        "@aws-sdk/client-securityhub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1047.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1046.0/index.min.mjs": "sha384-jFaIEVaWBEL2Y2aT5oT6ks1FpAp1XNeU8vcNL7Q/hjJ8zLN98HmjlHrHaVT+zyxH"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-securityhub@3.1047.0/index.min.mjs": "sha384-XyYwSjoEZNkUMb7RXdS1AbH9akBe+Qa6mUuroXC+3qBGTgE9z7DrW3UwE7zl30Bu"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1046.0`)
+* Always pin to a specific version (`@3.1047.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-securityhub/blob/refs/tags/3.1046.0/LICENSE
+https://github.com/cloud-sdk-builds/client-securityhub/blob/refs/tags/3.1047.0/LICENSE
 ```
 
 ---
